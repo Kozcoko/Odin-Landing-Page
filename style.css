@@ -5,8 +5,8 @@ body {
     
     display: flex;
     flex-direction: column;
-    width: 800px;
-    margin: auto;
+    /* width: 800px; */
+    /* margin: auto; */
 }
 
 ul,
@@ -19,7 +19,7 @@ a {
 .header {
     justify-content: space-between;
     align-items: center;
-    margin-top: 8px;
+    padding-top: 8px;
 }
 
 .linksofthehead {
@@ -33,5 +33,13 @@ a {
     font-size: 12px;   
     display: flex;
     flex-direction: row;
-    flex: 1 0 auto;
+    flex: 1 0 12px;
+}
+
+.header,
+.footer,
+.block1 {
+    background-color: #1F2937;
+    padding-left: 100px;
+    padding-right: 100px;
 }
