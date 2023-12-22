@@ -23,13 +23,21 @@ a {
 .header {
     justify-content: space-between;
     align-items: center;
-    padding-top: 8px;
 }
 
 .linksofthehead {
     display: flex;
     flex-direction: row;
     gap: 24px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .header,
