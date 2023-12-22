@@ -1,0 +1,37 @@
+body {
+    color: lightgray;
+    background-color: black;
+    font-family: Roboto, "Courier New", "Times New Roman", Georgia, Arial, serif;
+    
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: auto;
+}
+
+ul,
+ol,
+a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.linksofthehead {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.header,
+.footer {
+    font-size: 12px;   
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto;
+}
