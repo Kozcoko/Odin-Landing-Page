@@ -9,6 +9,26 @@ body {
     /* margin: auto; */
 }
 
+.header,
+.footer,
+.block1 {
+    background-color: #1F2937;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.block2 {
+    /* color */
+}
+
+.block3 {
+    /* color */
+}
+
+.block4 {
+    /* color */
+}
+
 ul,
 ol,
 a {
@@ -48,13 +68,6 @@ a {
     flex: 1 0 12px;
 }
 
-.header,
-.footer,
-.block1 {
-    background-color: #1F2937;
-    padding-left: 100px;
-    padding-right: 100px;
-}
 
 .block1 {
     display: flex;
@@ -71,4 +84,22 @@ a {
 #topbutton {
     height: auto;
     width: 60px;
+    color: darkred;
+    background-color: black;
+    border-color: darkred;
+}
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.deathrow-portraits {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.portrait {
+    width: 400px;
 }
