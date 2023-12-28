@@ -73,6 +73,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 12px;
 }
 
 .propaganda-block {
@@ -92,14 +93,11 @@ a {
 .block2 {
     display: flex;
     flex-direction: column;
+    padding: 12px;
 }
 
 .deathrow-portraits {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.portrait {
-    width: 400px;
 }
