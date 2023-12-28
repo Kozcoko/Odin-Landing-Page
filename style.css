@@ -1,5 +1,5 @@
 body {
-    color: lightgray;
+    color: rgb(194, 194, 194);
     background-color: black;
     font-family: Roboto, "Courier New", "Times New Roman", Georgia, Arial, serif;
     
@@ -12,21 +12,8 @@ body {
 .header,
 .footer,
 .block1 {
-    background-color: #1F2937;
     padding-left: 100px;
     padding-right: 100px;
-}
-
-.block2 {
-    /* color */
-}
-
-.block3 {
-    /* color */
-}
-
-.block4 {
-    /* color */
 }
 
 ul,
@@ -43,6 +30,8 @@ a {
 .header {
     justify-content: space-between;
     align-items: center;
+
+    background-color: #1F2937;
 }
 
 .linksofthehead {
@@ -58,6 +47,8 @@ a {
     right: 0;
     justify-content: center;
     align-items: center;
+
+    background-color: #010813;
 }
 
 .header,
@@ -73,6 +64,8 @@ a {
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 12px;
+
+    background-color: #131922;
 }
 
 .propaganda-block {
@@ -101,6 +94,8 @@ a {
     gap: 40px;
     height: 400px;
     width: 450px;
+
+    color: red;
 }
 
 .block3 {
@@ -114,4 +109,33 @@ a {
 
 #quote {
     align-self: flex-end;
+}
+
+.block4 {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    width: 60%;
+    height: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+
+    /* background-color: rgb(29, 0, 44); */
+    background-color: rgb(0, 0, 50);
+    color: white;
+}
+
+#joinbutton {
+    color: green;
+    background-color: black;
+    border-color: green;
+}
+
+#defybutton {
+    color: red;
+    background-color: black;
+    border-color: red;
 }
