@@ -64,6 +64,7 @@ a {
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 12px;
+    padding-top: 12px;
 
     background-color: #131922;
 }
@@ -76,8 +77,8 @@ a {
 
 #topbutton {
     height: auto;
-    width: 60px;
-    color: darkred;
+    width: 120px;
+    color: rgb(201, 0, 0);
     background-color: black;
     border-color: darkred;
 }
@@ -105,6 +106,7 @@ a {
     width: 600px;
     font-size: 36px;
     font-family: cursive;
+    margin-top: 32px;
 }
 
 #quote {
